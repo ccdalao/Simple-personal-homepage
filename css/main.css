@@ -1,0 +1,78 @@
+        body {
+            background: linear-gradient(to right, #00d2ff, #3a7bd5);
+            color: #aaa;
+            font-size: 40px;
+        }
+
+        .sc {
+            display: flex;
+            text-align: center;
+            margin-top: 10vh;
+            justify-content: center;
+        }
+
+        .sc:hover {
+            transform: rotateX(35deg), translateY(-50%);
+            transform: rotateX(35deg), translateY(-50%);
+        }
+
+        .sc:hover span:nth-child(odd) {
+            transform: skewY(15deg);
+            transform: skewY(15deg);
+        }
+
+        .sc:hover span:nth-child(even) {
+            transform: skewY(-15deg);
+            transform: skewY(-15deg);
+            background-color: #f9f9f9;
+        }
+
+        .sc > span:hover {
+            color: #464646;
+        }
+
+        .sc > span {
+            background-color: #fff;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
+            transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out, transform .3s ease-in-out;
+            box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+            border-radius: 2px;
+        }
+
+        span:hover {
+            transform: rotateX(15deg);
+            transform: rotateY(15deg);
+        }
+
+        .home {
+            display: flex;
+            text-align: center;
+            margin-top: 15vh;
+            justify-content: center;
+        }
+
+        .home > .ccdalao {
+            background-color: #fff;
+            width: 550px;
+            height: 200px;
+            box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .ccdalao > img {
+            border-radius: 100%;
+            margin-top: 10px;
+        }
+
+        .cp {
+            margin-top: -10px;
+            color: #636363;
+        }
+
+        .hit {
+            margin-top: -85px;
+            color: #8e8e8e;
+            font-size: 1px;
+        }
